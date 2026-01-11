@@ -1,0 +1,110 @@
+# GetIntruder Security App - .gitignore
+
+# === SENSITIVE CONFIGURATION FILES ===
+# Firebase Configuration
+app/google-services.json
+.firebaserc
+firebase.json
+
+# Local Configuration
+local.properties
+
+# Release Keys & Certificates
+*.jks
+*.p12
+*.pfx
+*.keystore
+release-key.jks
+
+# === BUILD FILES ===
+# Android Build Output
+*.apk
+*.aab
+build/
+app/build/
+.gradle/
+
+# Gradle Files
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# === IDE & EDITOR FILES ===
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+captures/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.metadata/
+
+# === DEBUG & LOG FILES ===
+# Debug Logs
+**/pglite-debug.log
+**/pglite-debug.*.log
+firebase-debug.log
+firebase-debug.*.log
+functions/firebase-debug.log
+functions/node_modules/
+*.log
+
+# Crash Reports
+crashlytics/
+
+# === OPERATING SYSTEM FILES ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# === SCREENSHOTS ===
+# Include screenshots but ignore temporary/draft versions
+screenshots/*_draft.*
+screenshots/*_temp.*
+screenshots/*.tmp
+
+# === BACKUP & TEMPORARY FILES ===
+# Backup Files
+*.bak
+*.tmp
+*.temp
+
+# Documentation (development only)
+*_INTERNAL.md
+*_DEBUG.md
+*_TEMP.md
+
+# === NODE.JS (Firebase Functions) ===
+functions/node_modules/
+functions/.env
+functions/.env.local
+
+# === ANDROID SPECIFIC ===
+# Lint
+lint/outputs/
+lint/tmp/
+
+# ProGuard
+proguard/
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Version control
+.svn/
+.hg/
+.bzr/

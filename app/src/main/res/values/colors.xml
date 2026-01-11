@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#2196F3</color>
+    <color name="dark_blue">#1976D2</color>
+    <color name="primary_dark_blue">#1565C0</color>
+    <color name="light_blue">#BBDEFB</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="danger_red">#F44336</color>
+    <color name="danger_light">#FFEBEE</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="dark_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="background_gray">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Material Design colors -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Additional theme colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+
+    <!-- Status bar and navigation bar colors -->
+    <color name="status_bar_color">@color/primary_dark_blue</color>
+    <color name="navigation_bar_color">@color/primary_blue</color>
+
+    <!-- Card and surface colors -->
+    <color name="surface_color">#FFFFFF</color>
+    <color name="on_surface_color">#212121</color>
+
+    <!-- Error colors -->
+    <color name="error_color">#B00020</color>
+    <color name="on_error_color">#FFFFFF</color>
+
+    <!-- Black & White Professional Theme -->
+    <color name="bw_background">#FAFAFA</color>
+    <color name="bw_surface">#FFFFFF</color>
+    <color name="bw_primary_text">#212121</color>
+    <color name="bw_secondary_text">#666666</color>
+    <color name="bw_hint_text">#9E9E9E</color>
+    <color name="bw_accent">#333333</color>
+    <color name="bw_primary_button">#212121</color>
+    <color name="bw_secondary_button">#FFFFFF</color>
+    <color name="bw_button_text">#FFFFFF</color>
+    <color name="bw_input_background">#F5F5F5</color>
+    <color name="bw_stroke">#E0E0E0</color>
+</resources>

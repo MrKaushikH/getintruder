@@ -1,0 +1,32 @@
+# Firebase Functions .gitignore
+
+# Dependencies
+node_modules/
+
+# Debug and Log Files
+*.log
+*.local
+firebase-debug.log
+firebase-debug.*.log
+pglite-debug.log
+pglite-debug.*.log
+functions-debug.log
+
+# Environment Variables (if any)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase Functions Secrets
+.secret.local
+.runtimeconfig.json
+
+# Temporary Files
+*.tmp
+*.temp
+
+# OS Files
+.DS_Store
+Thumbs.db

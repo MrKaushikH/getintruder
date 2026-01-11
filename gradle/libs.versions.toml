@@ -1,0 +1,50 @@
+[versions]
+agp = "8.13.2"
+biometric = "1.1.0"
+firebaseAppcheckDebug = "17.0.0"
+firebaseAppcheckPlayintegrity = "18.0.0"
+firebaseAuth = "23.2.1"
+firebaseAuthVersion = "22.3.0"
+firebaseBom = "33.16.0"
+firebaseStorage = "21.0.2"
+googlePlayServicesAuth = "20.7.0"
+googleServices = "4.4.3"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.1"
+material = "1.12.0"
+firebaseFirestore = "25.1.4"
+multidex = "2.0.1"
+playServicesAuth = "21.3.0"
+playServicesAuthVersion = "20.6.0"
+playServicesLocation = "21.3.0"
+
+[libraries]
+biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+firebase-appcheck-debug = { module = "com.google.firebase:firebase-appcheck-debug", version.ref = "firebaseAppcheckPlayintegrity" }
+firebase-appcheck-debug-v1700 = { module = "com.google.firebase:firebase-appcheck-debug", version.ref = "firebaseAppcheckDebug" }
+firebase-appcheck-playintegrity = { module = "com.google.firebase:firebase-appcheck-playintegrity", version.ref = "firebaseAppcheckPlayintegrity" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-auth-v2230 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
+firebase-storage = { module = "com.google.firebase:firebase-storage" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+google-firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v2060 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+play-services-auth-v2070 = { module = "com.google.android.gms:play-services-auth", version.ref = "googlePlayServicesAuth" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

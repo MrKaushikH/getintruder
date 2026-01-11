@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SecurityApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bw_primary_button</item>
+        <item name="colorPrimaryVariant">@color/bw_accent</item>
+        <item name="colorOnPrimary">@color/bw_button_text</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/bw_secondary_text</item>
+        <item name="colorSecondaryVariant">@color/bw_hint_text</item>
+        <item name="colorOnSecondary">@color/bw_primary_text</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/bw_primary_button</item>
+        <!-- Surface colors -->
+        <item name="android:colorBackground">@color/bw_background</item>
+        <item name="colorSurface">@color/bw_surface</item>
+        <item name="colorOnSurface">@color/bw_primary_text</item>
+    </style>
+</resources>

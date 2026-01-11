@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Security App</string>
+
+    <!-- Security messages -->
+    <string name="security_active">Security monitoring is ACTIVE</string>
+    <string name="security_inactive">Security monitoring is INACTIVE</string>
+
+    <!-- Button labels -->
+    <string name="enable_security">Enable Security</string>
+    <string name="disable_security">Disable Security</string>
+    <string name="view_photos">View Security Photos</string>
+    <string name="cloud_backup">Cloud Backup</string>
+
+    <!-- Statistics -->
+    <string name="photos_count">Photos Count</string>
+    <string name="last_capture">Last Capture</string>
+    <string name="never">Never</string>
+
+    <!-- Actions -->
+    <string name="backup_all">Backup All Photos</string>
+    <string name="auto_backup_settings">Auto-Backup Settings</string>
+    <string name="backup_status">Backup Status</string>
+
+    <!-- Device Admin strings -->
+    <string name="device_admin_label">Security Monitor</string>
+    <string name="device_admin_description">Enable this admin to monitor failed login attempts and capture photos of potential intruders trying to access your device.</string>
+
+    <!-- Firebase authentication -->
+    <!-- NOTE: This should be automatically generated from google-services.json -->
+    <!-- If Google Sign-In doesn't work, follow these steps:
+         1. Get your SHA-1 fingerprint: keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+         2. Add it to Firebase Console: Project Settings > SHA certificate fingerprints
+         3. Download new google-services.json and replace the old one
+         4. Clean and rebuild the project
+    -->
+    <string name="default_web_client_id" translatable="false">YOUR_WEB_CLIENT_ID_HERE</string>
+</resources>
